@@ -1,0 +1,25 @@
+{
+	"name": "GitHub Tab Size",
+	"version": "0.0.0",
+	"description": "Make tab indented code more readable by forcing the tab size to 4 instead of 8",
+	"homepage_url": "https://github.com/sindresorhus/github-tab-size",
+	"manifest_version": 2,
+	"minimum_chrome_version": "36",
+	"icons": {
+		"128": "icon.png"
+	},
+	"permissions": [
+		"https://github.com/*/*"
+	],
+	"content_scripts": [
+		{
+			"run_at": "document_end",
+			"matches": [
+				"https://github.com/*/*"
+			],
+			"css": [
+				"content.css"
+			]
+		}
+	]
+}

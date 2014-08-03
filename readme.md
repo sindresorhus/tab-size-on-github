@@ -13,4 +13,4 @@
 MIT © [Sindre Sorhus](http://sindresorhus.com)
 
 
-[install]:
+[install]: https://chrome.google.com/webstore/detail/github-tab-size/ofjbgncegkdemndciafljngjbdpfmbkn

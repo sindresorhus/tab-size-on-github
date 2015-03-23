@@ -1,6 +1,7 @@
 .tab-size-2,
 .tab-size-4,
 .tab-size-8,
-.inline-review-comment {
+.inline-review-comment,
+.gist table.lines {
 	tab-size: 4 !important;
 }

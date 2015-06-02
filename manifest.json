@@ -1,6 +1,6 @@
 {
 	"name": "GitHub Tab Size",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Make tab indented code more readable by forcing the tab size to 4 instead of 8",
 	"homepage_url": "https://github.com/sindresorhus/github-tab-size",
 	"manifest_version": 2,

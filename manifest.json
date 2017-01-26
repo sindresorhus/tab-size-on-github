@@ -10,14 +10,16 @@
 	},
 	"permissions": [
 		"https://github.com/*/*",
-		"https://gist.github.com/*/*"
+		"https://gist.github.com/*/*",
+		"https://raw.githubusercontent.com/*/*"
 	],
 	"content_scripts": [
 		{
 			"run_at": "document_end",
 			"matches": [
 				"https://github.com/*/*",
-				"https://gist.github.com/*/*"
+				"https://gist.github.com/*/*",
+				"https://raw.githubusercontent.com/*/*"
 			],
 			"css": [
 				"content.css"

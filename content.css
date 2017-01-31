@@ -4,6 +4,7 @@
 .inline-review-comment,
 .gist table.lines,
 table.diff-table,
-.markdown-body pre {
+.markdown-body pre,
+body > pre {
 	tab-size: 4 !important;
 }

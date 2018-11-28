@@ -11,7 +11,9 @@
 	"permissions": [
 		"https://github.com/*/*",
 		"https://gist.github.com/*/*",
-		"https://raw.githubusercontent.com/*/*"
+		"https://raw.githubusercontent.com/*/*",
+		"https://bitbucket.org/*/*",
+		"https://gitlab.com/*/*"
 	],
 	"content_scripts": [
 		{
@@ -19,7 +21,9 @@
 			"matches": [
 				"https://github.com/*/*",
 				"https://gist.github.com/*/*",
-				"https://raw.githubusercontent.com/*/*"
+				"https://raw.githubusercontent.com/*/*",
+				"https://bitbucket.org/*/*",
+				"https://gitlab.com/*/*"
 			],
 			"css": [
 				"content.css"
